@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-my-toolbar",
   "description": "Add buttons with external links to a Gitbook website toolbar",
   "main": "index.js",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "engines": {
     "gitbook": ">=2.0.0"
   },
