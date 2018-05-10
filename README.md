@@ -2,7 +2,7 @@
 
 This plugin adds buttons with external links to a Gitbook website toolbar.
 
-![](./assets/images/my-toolbar.png)
+![my-toolbar](./assets/images/my-toolbar.png)
 
 based on plugin [toolbar](https://github.com/Simran-B/gitbook-plugin-toolbar)
 
