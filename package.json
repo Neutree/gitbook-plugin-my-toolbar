@@ -1,0 +1,18 @@
+{
+  "name": "gitbook-plugin-toolbar",
+  "description": "Add buttons with external links to a Gitbook website toolbar",
+  "main": "index.js",
+  "version": "0.5.5",
+  "engines": {
+    "gitbook": ">=2.0.0"
+  },
+  "homepage": "https://github.com/Simran-B/gitbook-plugin-toolbar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Simran-B/gitbook-plugin-toolbar.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Simran-B/gitbook-plugin-toolbar/issues"
+  }
+}
