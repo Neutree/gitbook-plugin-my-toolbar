@@ -1,7 +1,7 @@
 require(['gitbook'], function(gitbook) {
 
     gitbook.events.bind('start', function(e, config) {
-        var opts = config.toolbar;
+        var opts = config['my-toolbar'];
         
         if (!opts || !opts.buttons) return;
         
@@ -12,6 +12,7 @@ require(['gitbook'], function(gitbook) {
             gitbook.toolbar.createButton({
                 icon: button.icon || "fa fa-external-link",
                 label: button.label || "Link",
+                text:button.text || "Link",
                 position: button.position || "right",
                 onClick: function(e) {
                     e.preventDefault();

@@ -1,6 +1,10 @@
-# plugin-toolbar
+# plugin:my-toolbar
 
 This plugin adds buttons with external links to a Gitbook website toolbar.
+
+![](./assets/images/my-toolbar.png)
+
+based on plugin [toolbar](https://github.com/Simran-B/gitbook-plugin-toolbar)
 
 ### Configuration
 
@@ -9,10 +13,10 @@ The buttons can be configured in **book.json**:
 ```js
 {
     "plugins": [
-        "toolbar"
+        "my-toolbar"
     ],
     "pluginsConfig": {
-        "toolbar": {
+        "my-toolbar": {
             "buttons":
             [
                 {
@@ -39,6 +43,7 @@ The buttons can be configured in **book.json**:
                 },
                 {
                     "label": "Edit page on github",
+                    "text":"Edit",
                     "icon": "fa fa-pencil-square-o",
                     "position" : "left",
                     "url": "https://github.com/org/repo/edit/master/{{filepath_lang}}"
@@ -54,11 +59,12 @@ The buttons can be configured in **book.json**:
 
 The table below lists the default values of the optional button parameters:
 
-Button | Default
+parameter | Default
 ---|---
-Label | Link
-Icon | fa-external-link
-Position | right
+label | Link
+text | text show
+icon | fa-external-link
+position | right
 
 ### Format strings
 
